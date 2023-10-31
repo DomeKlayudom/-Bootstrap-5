@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ประจวบคีรีขันธ์</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body style="background-color: rgba(250, 249, 219, 0.74)">
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: rgb(255, 150, 168)"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold text-light"
+          href="#"
+          style="font-size: 30px"
+        >
+          <img src="./image/จังหวัดประจวบคีรีขันธ์.png" alt="" width="45" />
+          ประจวบคีรีขันธ์
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="./Homepage.html"
+                >หน้าหลัก</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ประวัติ.html">ข้อมูลจังหวัด</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">ค้นหา</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pt-4 pb-2" style="background-color: aliceblue;">
+      <div
+      
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+        <div class="carousel-inner border border-dark rounded">
+          <div class="carousel-item active">
+            <img
+              src="./image/ชายหาดหัวหิน.jpg"
+              class="d-block w-100 clickable-image"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block">
+              <h5>ชายหาดหัวหิน</h5>
+              <p>ชายหาดที่สวยงามและดีที่สุดในประจวบคีรีขันธ์</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/ตลาดโต้รุ่ง.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block">
+              <h5>ตลาดโต้รุ่ง</h5>
+              <p>ตลาดท้องถิ่นที่มีของฝากและอาหารอร่อย</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/วัดห้วยมงตล.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block">
+              <h5>วัดห้วยมงคล</h5>
+              <p>วัดที่สำคัญและเป็นที่น่าสนใจในหัวหิน</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/สวนน้ำวานา นาวา.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block">
+              <h5>สวนน้ำวานา นาวา</h5>
+              <p>สวนน้ำที่มีสไลด์น้ำที่ท้าทายและอาหารอร่อย</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/อุทยานปราณบุรี.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block" >
+              <h5>อุทยานปราณบุรี</h5>
+              <p>อุทยานที่มีความหลากหลายและที่สวยงามในธรรมชาติ</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./image/อุทยานราชภักดิ์.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div id="textStoke" class="carousel-caption d-none d-md-block">
+              <h5>อุทยานราชภักดิ์</h5>
+              <p>สถานที่ประวัติศาสตร์ที่สำคัญในตำบลหนองแก</p>
+            </div>
+          </div>
+          
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      
+      <div
+        class="container mt-3 p-2 text-center display-3"
+        style="color: rgb(223, 31, 31)"
+      >
+        สวัสดี, ประจวบคีรีขันธ์!
+      </div>
+<hr>
+      <div class="container text-center">
+        <div class="display-5">
+
+          <p style="font-size: 30px; color: rgb(78, 71, 71);">
+            จังหวัดประจวบคีรีขันธ์ เป็นจังหวัดที่ตั้งอยู่ทางตอนใต้ของประเทศไทย
+            มีชายฝั่งทะเลทรายที่สวยงาม เป็นที่ท่องเที่ยวยอดนิยมโดยเฉพาะในหัวหิน
+            ที่นี่มีทริปทางธรรมชาติที่งดงามและอาหารทะเลอร่อยที่เป็นเอกลักษณ์
+            นอกจากนี้ยังมีวัดประวัติศาสตร์และกิจกรรมท่องเที่ยวทางทะเลมากมาย
+            จังหวัดนี้เป็นที่น่าสนใจสำหรับผู้ที่ต้องการผ่อนคลายในทะเลสีน้ำใสและพักผ่อนในบรรยากาศทางชายฝั่งที่เงียบสงบ
+          </p>
+          
+        </div>
+        <br />
+        <hr />
+        <div class="container" style="text-align: center">
+          <!--Begin Card-->
+          <div class="row justify-content-center display">
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/ชายหาดหัวหิน.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">ชายหาดหัวหิน</h5>
+                  <p class="card-text">
+                    "
+                    ชายหาดหัวหินเป็นสถานที่ท่องเที่ยวที่ยอดเยี่ยมในประเทศไทยที่มีทริปทางธรรมชาติที่งดงาม
+                    และทริปทางวัฒนธรรมที่น่าสนใจ พร้อมด้วยที่พักและอาหารที่อร่อย
+                    สถานที่นี้เต็มไปด้วยทัศนียภาพที่สวยงามของทะเลสีเขียวและทรายขาว
+                    ที่นี่เป็นจุดหมายที่น่าสนใจสำหรับผู้ที่ต้องการผ่อนคลายและสนุกสนานในวันหยุด"
+                  </p>
+                  <a href="./ชายหาดหัวหิน.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/ตลาดโต้รุ่ง.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">ตลาดโต้รุ่ง</h5>
+                  <p class="card-text">
+                    "ตลาดโต้รุ่งหัวหินเป็นสถานที่ช้อปปิ้งและสัมผัสกับวัฒนธรรมท้องถิ่นในเมืองหัวหิน
+                    ที่นี่คุณจะพบกับอาหารถูกปากและของที่ระลึกที่น่าสนใจ
+                    ทั้งนี้ยังมีสินค้าหลากหลายต่างประเทศและผลิตภัณฑ์ศิลปะท้องถิ่นให้คุณสามารถเลือกซื้อเป็นของฝากหรือของขวัญได้
+                    บรรยากาศของตลาดนี้เป็นส่วนหนึ่งของประสบการณ์ท่องเที่ยวที่น่าจดจำในหัวหิน"
+                  </p>
+                  <a href="./ตลาดโต้รุ่ง.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/วัดห้วยมงตล.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">วัดห้วยมงคล</h5>
+                  <p class="card-text">
+                    วัดห้วยมงคล เป็นวัดที่สำคัญและเป็นที่น่าสนใจในพื้นที่หัวหิน
+                    ตั้งอยู่ห่างจากตัวเมืองหัวหินไม่ไกล
+                    วัดนี้มีประวัติและมีความศรัทธามายาวนานในประวัติศาสตร์ของประเทศไทย
+                    ท่านพระหลวงพ่อหลังค์
+                    ซึ่งเป็นหลวงพ่อที่มีความสำคัญในศาสนาพุทธและทางวิจัยทางนิกาย
+                    เป็นจุดประสงค์ให้ผู้คนมาทักษะเที่ยวและขอพรในที่นี่
+                    นอกจากนี้ยังมีรูปปั้นชาวบ้านที่มีความทรงจำยิ่งอันสวยงาม
+                    และคอนโทรลลิ่งสูงสุดในโลกชื่อ "โมโนลิธิค"
+                    ที่นี่เป็นสถานที่ที่เหมาะสำหรับการสังสรรค์และท่องเที่ยวในหัวหิน
+                  </p>
+                  <a href="./วัดห้วยมงคล.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/สวนน้ำวานา นาวา.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">สวนน้ำวานา นาวา</h5>
+                  <p class="card-text">
+                    สวนน้ำวานา นาวา
+                    เป็นสวนน้ำที่ตั้งอยู่ในเมืองหัวหินของประเทศไทย
+                    นอกจากการมีสไลด์น้ำที่น่าตื่นเต้นและสถานที่สนุกสนานสำหรับทั้งครอบครัวและเด็ก
+                    สวนน้ำนี้ยังมีคอนเซปต์ที่น่าสนใจและออกแบบที่ทันสมัย
+                    ทำให้มันเป็นหนึ่งในสวนน้ำที่น่าสนใจที่สุดในประเทศไทย
+                    มีส่วนประกอบหลากหลายรูปแบบรวมถึงสไลด์น้ำที่ท้าทายและเหมาะสำหรับผู้ชมทุกวัย
+                    นอกจากนี้ยังมีร้านอาหารและบาร์ในสวนน้ำเพื่อให้ผู้ท่องเที่ยวสามารถพักผ่อนและสนุกสนานไปพร้อมๆ
+                  </p>
+                  <a href="./สวนน้ำวานา นาวา.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/อุทยานปราณบุรี.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">อุทยานปราณบุรี</h5>
+                  <p class="card-text">
+                    อุทยานปราณบุรีเป็นสถานที่ท่องเที่ยวที่มีความหลากหลายและท่ามกลางธรรมชาติที่งดงาม
+                    ที่นี่มีป่าไม้ใหญ่ที่สมบูรณ์และนานาชนิดของพันธุ์ไม้
+                    ทำให้นักท่องเที่ยวสามารถทำกิจกรรมเดินป่า สำรวจธรรมชาติ
+                    และชมวิวทิวทัศน์ที่สวยงามได้
+                    นอกจากนี้ยังมีกิจกรรมทางน้ำที่น่าสนใจ เช่น ล่องเรือพายทะเล
+                    และทำกิจกรรมดำน้ำตื้นในทะเลสีฟ้าที่ใสสะอาด
+                    ถ้าคุณกำลังมองหาสถานที่สำหรับพักผ่อนอย่างแท้จริงท่ามกลางธรรมชาติ
+                    อุทยานปราณบุรีคือเลือกที่ดี
+                  </p>
+                  <a href="./อุทยานปราณบุรี.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-1">
+              <div class="card" style="width: 22rem">
+                <img
+                  src="./image/อุทยานราชภักดิ์.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">อุทยานราชภักดิ์</h5>
+                  <p class="card-text">
+                    อุทยานราชภักดิ์เป็นสถานที่ประวัติศาสตร์ที่สำคัญอยู่ในตำบลหนองแก
+                    อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์
+                    นี่คือสถานที่ที่มีความหมายทางประวัติศาสตร์และวัฒนธรรม
+                    ซึ่งอาจมีการบันทึกเกี่ยวกับประวัติศาสตร์ วัฒนธรรม
+                    หรือศิลปะของพื้นที่นี้ อาจมีวัด วัง
+                    หรือโครงการท่องเที่ยวที่มีความสำคัญทางประวัติศาสตร์ในสถานที่นี้
+                    ผู้ท่องเที่ยวที่สนใจประวัติศาสตร์และวัฒนธรรมท้องถิ่นอาจจะมีความสนใจในการเยี่ยมชมที่นี่เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับประวัติศาสตร์และวัฒนธรรมของพื้นที่นี้
+                  </p>
+                  <a href="./อุทยานราชภักดิ์.html" class="btn btn-primary">คลิกเพื่อดู</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Card-->
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

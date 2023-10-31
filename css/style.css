@@ -1,0 +1,18 @@
+.carousel {
+    max-width: 800px; 
+    margin: auto; 
+}
+.carousel-item {
+    width: 100%;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-caption {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(187, 185, 185, 0.7);
+    padding: 1px;
+}
